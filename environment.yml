@@ -9,3 +9,7 @@ dependencies:
   - scipy
   - altair
   - vl-convert-python
+  - myst-parser
+  - sphinx
+  - sphinx-rtd-theme
+  - sphinx-autoapi
