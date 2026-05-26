@@ -61,6 +61,7 @@ def main(num_samples, training_data, test_data):
     Program that generates a set of training and test samples for a non-linear classification task.
     """
 
+    rng = np.random.default_rng(seed=24)
     rng = np.random.default_rng(seed=37)
 
     for output_file in [training_data, test_data]:
