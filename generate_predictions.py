@@ -14,6 +14,9 @@ def get_nearest_labels(row, labels, num_neighbors):
 
 
 def nearest_neighbor_predictor(df_train, df_test, num_neighbors):
+    
+    assert num_neighbors > 0, "Number of neighbors must be positive"
+
     test_positions = df_test[["x", "y"]].values
     train_positions = df_train[["x", "y"]].values
     train_labels = df_train["label"].values
@@ -29,6 +32,14 @@ def nearest_neighbor_predictor(df_train, df_test, num_neighbors):
         predictions.append(majority_index)
 
     return predictions
+
+
+def test_is_nearest_neightbout_predictor_output_a_list():
+    df_train = pd.DataFrame({"x": [0, 1], "y": [0, 1], "label": [0, 1]})
+    df_test = pd.DataFrame({"x": [0.5], "y": [0.5]})
+    num_neighbors = 1
+    result = nearest_neighbor_predictor(df_train, df_test, num_neighbors)
+    assert isinstance(result, list), "Output should be a list"
 
 
 @click.command()
