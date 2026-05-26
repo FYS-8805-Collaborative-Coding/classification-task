@@ -1,6 +1,7 @@
 # 2D classification task using a nearest-neighbor predictor
 
 
+
 Little example project we use in teaching.
 
 This is part of https://coderefinery.github.io/reproducible-python-ml/.
