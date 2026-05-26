@@ -6,6 +6,9 @@ import numpy as np
 import pandas as pd
 
 
+def awesome_new_feature():
+    print("to be updated soon")
+
 def normal_distribution(rng, loc, scale, num_samples, label):
     xs = rng.normal(loc, scale, num_samples)
     ys = rng.normal(loc, scale, num_samples)
