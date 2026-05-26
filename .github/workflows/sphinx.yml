@@ -17,10 +17,13 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v4
 
-    - uses: mamba-org/setup-micromamba@v1
+    # 1. Upgraded to @v2
+    - uses: mamba-org/setup-micromamba@v2
       with:
-        micromamba-version: '2.0.5-0' # any version from https://github.com/mamba-org/micromamba-releases
+        micromamba-version: '2.0.5-0' 
         environment-file: environment.yml
+        # 2. Added an explicit environment name
+        environment-name: docs-env      
         init-shell: bash
         cache-environment: true
         post-cleanup: 'all'
