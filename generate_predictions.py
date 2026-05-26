@@ -1,3 +1,6 @@
+# Example usage:
+#   python generate_predictions.py --num-neighbors 7 --training-data train.csv --test-data test.csv --predictions data/predictions.csv
+
 import click
 import numpy as np
 import pandas as pd

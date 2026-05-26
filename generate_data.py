@@ -1,3 +1,6 @@
+# Example usage:
+#   python generate_data.py --num-samples 50 --training-data data/train.csv --test-data data/test.csv
+
 import click
 import numpy as np
 import pandas as pd
