@@ -14,3 +14,4 @@ dependencies:
   - sphinx-rtd-theme
   - sphinx-autoapi
   - sphinx-autobuild
+  - pytest
