@@ -1,7 +1,6 @@
 # 2D classification task using a nearest-neighbor predictor
 Hi Babli here
 
-Kian Was here...
 
 Elisabeth says hi too!
 
