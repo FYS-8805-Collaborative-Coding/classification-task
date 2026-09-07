@@ -3,7 +3,7 @@ Hi Babli here
 
 Kian Was here...
 
-Kian was here, again...
+Kian was here, again...  # I felt the need to tell people that I was here for a second time
 
 We will use this repository for the git crash course for the AI cup 
 
