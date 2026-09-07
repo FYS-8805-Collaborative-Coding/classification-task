@@ -2,6 +2,7 @@
 Hi Babli here
 
 Kian Was here...
+New commit
 
 We will use this repository for the git crash course for the AI cup 
 
