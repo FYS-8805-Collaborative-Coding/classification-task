@@ -1,8 +1,9 @@
 # 2D classification task using a nearest-neighbor predictor
-Hi Babli here
+Hi Bablihere
 
 
 Kian was here, again...  # I felt the need to tell people that I was here for a first time (we use 0 indexing)
+Elisabeth says hi too!
 
 Kian is watching 
 
