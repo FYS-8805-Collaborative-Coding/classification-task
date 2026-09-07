@@ -1,5 +1,7 @@
 # 2D classification task using a nearest-neighbor predictor
 
+Kian Was here...
+
 We will use this repository for the git crash course for the AI cup 
 
 Little example project we use in teaching.
