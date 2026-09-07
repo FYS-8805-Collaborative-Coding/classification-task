@@ -2,7 +2,10 @@
 Hi nobody was here
 
 
+Kian was here, again...  # I felt the need to tell people that I was here for a first time (we use 0 indexing)
 Elisabeth says hi too!
+
+Kian is watching 
 
 We will use this repository for the git crash course for the AI cup 
 
