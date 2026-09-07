@@ -1,5 +1,5 @@
 # 2D classification task using a nearest-neighbor predictor
-Hi Babli here
+Hi nobody was here
 
 
 Elisabeth says hi too!
