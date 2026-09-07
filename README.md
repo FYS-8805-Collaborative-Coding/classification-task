@@ -3,6 +3,8 @@ Hi Babli here
 
 Kian Was here...
 
+Elisabeth says hi too!
+
 We will use this repository for the git crash course for the AI cup 
 
 Little example project we use in teaching.
